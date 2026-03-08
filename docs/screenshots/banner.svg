@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#04101e"/>
+      <stop offset="100%" stop-color="#0a1c30"/>
+    </linearGradient>
+    <linearGradient id="gold-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a84b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#c8a84b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c8a84b" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#c8a84b" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#d4b460" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#c8a84b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="380" rx="12" fill="url(#bg)"/>
+  
+  <!-- Top gold accent line -->
+  <rect x="0" y="0" width="900" height="3" rx="1" fill="url(#gold-line)"/>
+  
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#c8a84b" stroke-width="0.5">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="240" x2="900" y2="240"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="150" y1="0" x2="150" y2="380"/>
+    <line x1="300" y1="0" x2="300" y2="380"/>
+    <line x1="450" y1="0" x2="450" y2="380"/>
+    <line x1="600" y1="0" x2="600" y2="380"/>
+    <line x1="750" y1="0" x2="750" y2="380"/>
+  </g>
+  
+  <!-- Glow -->
+  <ellipse cx="450" cy="140" rx="280" ry="120" fill="url(#gold-glow)" opacity="0.2"/>
+  
+  <!-- Shield icon -->
+  <g transform="translate(450, 80)" opacity="0.9">
+    <path d="M0,-35 L30,-20 L30,10 Q30,30 0,42 Q-30,30 -30,10 L-30,-20 Z" 
+          fill="none" stroke="#c8a84b" stroke-width="2.5" opacity="0.7"/>
+    <path d="M0,-22 L18,-12 L18,6 Q18,18 0,26 Q-18,18 -18,6 L-18,-12 Z"
+          fill="#c8a84b" fill-opacity="0.15"/>
+    <text x="0" y="8" fill="#c8a84b" font-family="serif" font-size="24" font-weight="700" text-anchor="middle">✓</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="450" y="165" fill="#e8e4d8" font-family="Georgia,serif" font-size="38" font-weight="700" text-anchor="middle" letter-spacing="3">CORF Compliance Tool</text>
+  
+  <!-- Subtitle -->
+  <text x="450" y="198" fill="#c8a84b" font-family="Georgia,serif" font-size="15" text-anchor="middle" letter-spacing="2">CBK Cyber &amp; Operational Resilience Framework v1.0</text>
+  
+  <!-- Divider -->
+  <line x1="320" y1="218" x2="580" y2="218" stroke="#c8a84b" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Description -->
+  <text x="450" y="248" fill="#9aabbc" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle">Full-stack compliance assessment tool for Kuwait's financial sector</text>
+  <text x="450" y="268" fill="#9aabbc" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle">876 Controls · 27 Domains · 93 Sub-domains · 3 Baselines</text>
+  
+  <!-- Badge row -->
+  <rect x="170" y="290" width="90" height="26" rx="13" fill="#c8a84b20" stroke="#c8a84b50" stroke-width="1"/>
+  <text x="215" y="307" fill="#c8a84b" font-family="monospace" font-size="11" text-anchor="middle">v1.0.0</text>
+  
+  <rect x="275" y="290" width="85" height="26" rx="13" fill="#3b82f620" stroke="#3b82f650" stroke-width="1"/>
+  <text x="317" y="307" fill="#3b82f6" font-family="monospace" font-size="11" text-anchor="middle">React</text>
+  
+  <rect x="375" y="290" width="85" height="26" rx="13" fill="#22c55e20" stroke="#22c55e50" stroke-width="1"/>
+  <text x="417" y="307" fill="#22c55e" font-family="monospace" font-size="11" text-anchor="middle">Node.js</text>
+  
+  <rect x="475" y="290" width="80" height="26" rx="13" fill="#8b5cf620" stroke="#8b5cf650" stroke-width="1"/>
+  <text x="515" y="307" fill="#8b5cf6" font-family="monospace" font-size="11" text-anchor="middle">SQLite</text>
+  
+  <rect x="570" y="290" width="80" height="26" rx="13" fill="#06b6d420" stroke="#06b6d450" stroke-width="1"/>
+  <text x="610" y="307" fill="#06b6d4" font-family="monospace" font-size="11" text-anchor="middle">Docker</text>
+  
+  <rect x="665" y="290" width="70" height="26" rx="13" fill="#c8a84b20" stroke="#c8a84b50" stroke-width="1"/>
+  <text x="700" y="307" fill="#c8a84b" font-family="monospace" font-size="11" text-anchor="middle">MIT</text>
+  
+  <!-- Author -->
+  <text x="450" y="350" fill="#4a5a6c" font-family="monospace" font-size="11" text-anchor="middle">by @SiteQ8 — Ali AlEnezi 🇰🇼 — For the Kuwait Cybersecurity Community</text>
+  
+  <!-- Bottom gold accent -->
+  <rect x="0" y="377" width="900" height="3" rx="1" fill="url(#gold-line)"/>
+</svg>
