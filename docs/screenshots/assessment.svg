@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
+  <rect width="800" height="440" rx="10" fill="#04101e"/>
+  <rect x="0" y="0" width="800" height="40" rx="10" fill="#071525"/>
+  <rect x="0" y="30" width="800" height="10" fill="#071525"/>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#1a2a3a"/>
+  <circle cx="20" cy="20" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="20" r="6" fill="#eab308"/>
+  <circle cx="60" cy="20" r="6" fill="#22c55e"/>
+  <text x="400" y="24" fill="#4a5a6c" font-family="monospace" font-size="11" text-anchor="middle">CORF Compliance Tool — Baseline Assessment</text>
+
+  <!-- Baseline tabs -->
+  <g transform="translate(20, 55)">
+    <rect x="0" y="0" width="180" height="32" rx="6" fill="#c8a84b20" stroke="#c8a84b" stroke-width="1"/>
+    <text x="90" y="20" fill="#c8a84b" font-family="system-ui" font-size="12" font-weight="600" text-anchor="middle">Cyber Resilience</text>
+    
+    <rect x="195" y="0" width="200" height="32" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="295" y="20" fill="#9aabbc" font-family="system-ui" font-size="12" text-anchor="middle">Operational Resilience</text>
+    
+    <rect x="410" y="0" width="230" height="32" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="525" y="20" fill="#9aabbc" font-family="system-ui" font-size="12" text-anchor="middle">Third-Party Risk Management</text>
+  </g>
+  
+  <!-- Domain 1 (expanded) -->
+  <rect x="20" y="100" width="760" height="36" rx="6" fill="#0d2040" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="45" y="122" fill="#c8a84b" font-family="system-ui" font-size="13" font-weight="600">▼ CR-1: Governance &amp; Strategy</text>
+  <text x="680" y="122" fill="#22c55e" font-family="monospace" font-size="11">72% · 3.4</text>
+  
+  <!-- Sub-domain cards -->
+  <g transform="translate(40, 148)">
+    <!-- Sub-domain 1 -->
+    <rect x="0" y="0" width="720" height="80" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="15" y="20" fill="#c8a84b" font-family="monospace" font-size="10">CR-1.1</text>
+    <text x="70" y="20" fill="#e8e4d8" font-family="system-ui" font-size="11" font-weight="600">Cybersecurity Strategy &amp; Roadmap</text>
+    
+    <text x="15" y="42" fill="#4a5a6c" font-family="system-ui" font-size="10">Maturity:</text>
+    <!-- Maturity dots -->
+    <circle cx="80" cy="38" r="8" fill="#ef4444" opacity="0.3"/><text x="80" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">1</text>
+    <circle cx="100" cy="38" r="8" fill="#f97316" opacity="0.3"/><text x="100" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">2</text>
+    <circle cx="120" cy="38" r="8" fill="#eab308" opacity="0.3"/><text x="120" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">3</text>
+    <circle cx="140" cy="38" r="8" fill="#22c55e" stroke="#22c55e" stroke-width="2"/><text x="140" y="42" fill="#e8e4d8" font-family="monospace" font-size="8" text-anchor="middle">4</text>
+    <circle cx="160" cy="38" r="8" fill="#3b82f6" opacity="0.3"/><text x="160" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">5</text>
+    
+    <text x="200" y="42" fill="#4a5a6c" font-family="system-ui" font-size="10">Compliance:</text>
+    <!-- Compliance slider -->
+    <rect x="280" y="34" width="150" height="8" rx="4" fill="#1a2a3a"/>
+    <rect x="280" y="34" width="112" height="8" rx="4" fill="#c8a84b"/>
+    <text x="440" y="42" fill="#c8a84b" font-family="monospace" font-size="10">75%</text>
+    
+    <text x="15" y="66" fill="#4a5a6c" font-family="system-ui" font-size="10">Evidence:</text>
+    <text x="80" y="66" fill="#9aabbc" font-family="system-ui" font-size="10">POL-CS-001, Board minutes Q3-2025</text>
+    <rect x="600" y="5" width="105" height="24" rx="4" fill="#22c55e20" stroke="#22c55e50" stroke-width="1"/>
+    <text x="652" y="21" fill="#22c55e" font-family="system-ui" font-size="10" text-anchor="middle">✓ Saved</text>
+  </g>
+  
+  <!-- Sub-domain 2 -->
+  <g transform="translate(40, 240)">
+    <rect x="0" y="0" width="720" height="80" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="15" y="20" fill="#c8a84b" font-family="monospace" font-size="10">CR-1.2</text>
+    <text x="70" y="20" fill="#e8e4d8" font-family="system-ui" font-size="11" font-weight="600">Board Oversight &amp; Accountability</text>
+    
+    <text x="15" y="42" fill="#4a5a6c" font-family="system-ui" font-size="10">Maturity:</text>
+    <circle cx="80" cy="38" r="8" fill="#ef4444" opacity="0.3"/><text x="80" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">1</text>
+    <circle cx="100" cy="38" r="8" fill="#f97316" opacity="0.3"/><text x="100" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">2</text>
+    <circle cx="120" cy="38" r="8" fill="#eab308" stroke="#eab308" stroke-width="2"/><text x="120" y="42" fill="#e8e4d8" font-family="monospace" font-size="8" text-anchor="middle">3</text>
+    <circle cx="140" cy="38" r="8" fill="#22c55e" opacity="0.3"/><text x="140" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">4</text>
+    <circle cx="160" cy="38" r="8" fill="#3b82f6" opacity="0.3"/><text x="160" y="42" fill="#9aabbc" font-family="monospace" font-size="8" text-anchor="middle">5</text>
+    
+    <text x="200" y="42" fill="#4a5a6c" font-family="system-ui" font-size="10">Compliance:</text>
+    <rect x="280" y="34" width="150" height="8" rx="4" fill="#1a2a3a"/>
+    <rect x="280" y="34" width="82" height="8" rx="4" fill="#f97316"/>
+    <text x="440" y="42" fill="#f97316" font-family="monospace" font-size="10">55%</text>
+    
+    <text x="15" y="66" fill="#4a5a6c" font-family="system-ui" font-size="10">Notes:</text>
+    <text x="65" y="66" fill="#9aabbc" font-family="system-ui" font-size="10">Board charter exists but lacks quarterly cyber reporting cadence</text>
+  </g>
+  
+  <!-- Domain 2 (collapsed) -->
+  <rect x="20" y="335" width="760" height="36" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="45" y="357" fill="#9aabbc" font-family="system-ui" font-size="13" font-weight="600">▶ CR-2: Risk Management</text>
+  <text x="680" y="357" fill="#eab308" font-family="monospace" font-size="11">58% · 2.8</text>
+
+  <!-- Domain 3 (collapsed) -->
+  <rect x="20" y="380" width="760" height="36" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="45" y="402" fill="#9aabbc" font-family="system-ui" font-size="13" font-weight="600">▶ CR-3: Security Operations</text>
+  <text x="680" y="402" fill="#22c55e" font-family="monospace" font-size="11">80% · 3.8</text>
+</svg>

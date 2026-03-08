@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="10" fill="#04101e"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="800" height="40" rx="10" fill="#071525"/>
+  <rect x="0" y="30" width="800" height="10" fill="#071525"/>
+  <line x1="0" y1="40" x2="800" y2="40" stroke="#1a2a3a" stroke-width="1"/>
+  <circle cx="20" cy="20" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="20" r="6" fill="#eab308"/>
+  <circle cx="60" cy="20" r="6" fill="#22c55e"/>
+  <text x="400" y="24" fill="#4a5a6c" font-family="monospace" font-size="11" text-anchor="middle">CORF Compliance Tool — Dashboard</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="40" width="180" height="410" fill="#071525"/>
+  <line x1="180" y1="40" x2="180" y2="450" stroke="#1a2a3a" stroke-width="1"/>
+  
+  <!-- Sidebar logo area -->
+  <text x="90" y="72" fill="#c8a84b" font-family="Georgia,serif" font-size="14" font-weight="700" text-anchor="middle">🛡️ CORF Tool</text>
+  <line x1="20" y1="85" x2="160" y2="85" stroke="#1a2a3a" stroke-width="1"/>
+  
+  <!-- Sidebar nav -->
+  <rect x="10" y="95" width="160" height="32" rx="6" fill="#c8a84b20"/>
+  <text x="30" y="115" fill="#c8a84b" font-family="system-ui" font-size="12">📊 Dashboard</text>
+  <text x="30" y="148" fill="#9aabbc" font-family="system-ui" font-size="12">✅ Assessment</text>
+  <text x="30" y="175" fill="#9aabbc" font-family="system-ui" font-size="12">📋 SoA Builder</text>
+  <text x="30" y="202" fill="#9aabbc" font-family="system-ui" font-size="12">🏷️ Tier Calculator</text>
+  <text x="30" y="229" fill="#9aabbc" font-family="system-ui" font-size="12">🔧 Remediation</text>
+  <text x="30" y="256" fill="#9aabbc" font-family="system-ui" font-size="12">📄 Export Report</text>
+  
+  <!-- Engagement info -->
+  <rect x="10" y="290" width="160" height="60" rx="6" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="20" y="308" fill="#4a5a6c" font-family="system-ui" font-size="9">ENGAGEMENT</text>
+  <text x="20" y="324" fill="#e8e4d8" font-family="system-ui" font-size="11" font-weight="600">NBK Annual Review</text>
+  <text x="20" y="340" fill="#9aabbc" font-family="system-ui" font-size="9">Assessor: Ali AlEnezi</text>
+
+  <!-- Main content -->
+  <!-- Top stats row -->
+  <g transform="translate(200, 55)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="140" height="75" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="15" y="22" fill="#4a5a6c" font-family="system-ui" font-size="10">OVERALL MATURITY</text>
+    <text x="15" y="52" fill="#c8a84b" font-family="Georgia,serif" font-size="26" font-weight="700">3.2</text>
+    <text x="70" y="52" fill="#9aabbc" font-family="system-ui" font-size="10">/ 5.0</text>
+    <text x="15" y="67" fill="#22c55e" font-family="system-ui" font-size="10">▲ Baseline</text>
+    
+    <!-- Card 2 -->
+    <rect x="155" y="0" width="140" height="75" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="170" y="22" fill="#4a5a6c" font-family="system-ui" font-size="10">COMPLIANCE</text>
+    <text x="170" y="52" fill="#22c55e" font-family="Georgia,serif" font-size="26" font-weight="700">68%</text>
+    <text x="170" y="67" fill="#9aabbc" font-family="system-ui" font-size="10">596 / 876 controls</text>
+    
+    <!-- Card 3 -->
+    <rect x="310" y="0" width="140" height="75" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="325" y="22" fill="#4a5a6c" font-family="system-ui" font-size="10">TIER ESTIMATE</text>
+    <text x="325" y="52" fill="#3b82f6" font-family="Georgia,serif" font-size="26" font-weight="700">Tier 2</text>
+    <text x="325" y="67" fill="#9aabbc" font-family="system-ui" font-size="10">Local major bank</text>
+    
+    <!-- Card 4 -->
+    <rect x="465" y="0" width="115" height="75" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+    <text x="480" y="22" fill="#4a5a6c" font-family="system-ui" font-size="10">REMEDIATION</text>
+    <text x="480" y="52" fill="#f97316" font-family="Georgia,serif" font-size="26" font-weight="700">23</text>
+    <text x="480" y="67" fill="#ef4444" font-family="system-ui" font-size="10">5 overdue items</text>
+  </g>
+
+  <!-- Radar chart area -->
+  <rect x="200" y="150" width="280" height="280" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="215" y="172" fill="#e8e4d8" font-family="system-ui" font-size="12" font-weight="600">Maturity by Baseline</text>
+  
+  <!-- Simplified radar -->
+  <g transform="translate(340, 300)">
+    <!-- Radar rings -->
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#1a2a3a" stroke-width="1"/>
+    <circle cx="0" cy="0" r="72" fill="none" stroke="#1a2a3a" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="54" fill="none" stroke="#1a2a3a" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#1a2a3a" stroke-width="0.5"/>
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1a2a3a" stroke-width="0.5"/>
+    
+    <!-- Radar axes -->
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="#1a2a3a" stroke-width="0.5"/>
+    <line x1="-78" y1="-45" x2="78" y2="45" stroke="#1a2a3a" stroke-width="0.5"/>
+    <line x1="-78" y1="45" x2="78" y2="-45" stroke="#1a2a3a" stroke-width="0.5"/>
+    
+    <!-- Radar data polygon -->
+    <polygon points="0,-65 56,-32 56,32 0,50 -40,32 -40,-32" fill="#c8a84b" fill-opacity="0.15" stroke="#c8a84b" stroke-width="2"/>
+    <polygon points="0,-50 42,-25 42,25 0,36 -30,25 -30,-25" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4 2"/>
+    
+    <!-- Labels -->
+    <text x="0" y="-100" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="middle">CR-Gov</text>
+    <text x="90" y="-40" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="start">CR-Risk</text>
+    <text x="90" y="40" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="start">OR-BCP</text>
+    <text x="0" y="68" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="middle">OR-TPR</text>
+    <text x="-90" y="40" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="end">TPRM</text>
+    <text x="-90" y="-40" fill="#9aabbc" font-family="system-ui" font-size="9" text-anchor="end">CR-Sec</text>
+  </g>
+
+  <!-- Bar chart area -->
+  <rect x="500" y="150" width="280" height="280" rx="8" fill="#0a1c30" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="515" y="172" fill="#e8e4d8" font-family="system-ui" font-size="12" font-weight="600">Compliance by Baseline</text>
+  
+  <!-- Bar chart -->
+  <g transform="translate(530, 200)">
+    <!-- CR bar -->
+    <text x="0" y="12" fill="#9aabbc" font-family="system-ui" font-size="10">Cyber Resilience</text>
+    <rect x="0" y="18" width="220" height="18" rx="4" fill="#1a2a3a"/>
+    <rect x="0" y="18" width="154" height="18" rx="4" fill="#c8a84b"/>
+    <text x="160" y="31" fill="#e8e4d8" font-family="monospace" font-size="10">70%</text>
+    
+    <!-- OR bar -->
+    <text x="0" y="62" fill="#9aabbc" font-family="system-ui" font-size="10">Operational Resilience</text>
+    <rect x="0" y="68" width="220" height="18" rx="4" fill="#1a2a3a"/>
+    <rect x="0" y="68" width="132" height="18" rx="4" fill="#3b82f6"/>
+    <text x="138" y="81" fill="#e8e4d8" font-family="monospace" font-size="10">60%</text>
+    
+    <!-- TPRM bar -->
+    <text x="0" y="112" fill="#9aabbc" font-family="system-ui" font-size="10">Third-Party Risk Mgmt</text>
+    <rect x="0" y="118" width="220" height="18" rx="4" fill="#1a2a3a"/>
+    <rect x="0" y="118" width="165" height="18" rx="4" fill="#22c55e"/>
+    <text x="171" y="131" fill="#e8e4d8" font-family="monospace" font-size="10">75%</text>
+    
+    <!-- Legend -->
+    <rect x="0" y="160" width="10" height="10" rx="2" fill="#c8a84b"/>
+    <text x="15" y="169" fill="#9aabbc" font-family="system-ui" font-size="9">Current</text>
+    <rect x="70" y="160" width="10" height="10" rx="2" fill="#3b82f6" opacity="0.5"/>
+    <text x="85" y="169" fill="#9aabbc" font-family="system-ui" font-size="9">Target</text>
+  </g>
+</svg>
