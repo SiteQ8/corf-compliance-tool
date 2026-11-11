@@ -1,4 +1,4 @@
-// ─── CBK CORF v1.0 — Full Domain/Sub-domain Structure ──────────────────────
+// ─── CBK CORF v1.0 - Full Domain/Sub-domain Structure ──────────────────────
 // Source: Central Bank of Kuwait, Cyber and Operational Resilience Framework, Dec 2025
 
 const CYBER_DOMAINS = [
