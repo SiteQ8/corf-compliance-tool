@@ -23,13 +23,13 @@
 
 ---
 
-## 📋 About
+## About
 
 The **CORF Compliance Tool** is an open-source, full-stack web application that helps security consultants, assessors, and compliance officers conduct structured assessments against the Central Bank of Kuwait's **Cyber and Operational Resilience Framework (CORF)**, issued December 2025.
 
 It replaces manual spreadsheets with a structured, database-backed tool featuring automated scoring, interactive dashboards, PDF/Excel reporting, and a full remediation tracker.
 
-> Built for the **Kuwait Cybersecurity Community** — by security consultants, for security consultants.
+> Built for the **Kuwait Cybersecurity Community**, by security consultants, for security consultants.
 
 ### Framework Coverage
 
@@ -42,7 +42,7 @@ It replaces manual spreadsheets with a structured, database-backed tool featurin
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dashboard
 Real-time maturity and compliance metrics with radar charts and bar visualizations.
@@ -67,15 +67,15 @@ Track findings with priority, status, ownership, due dates, overdue detection, a
 
 ---
 
-## ✨ Features
+## Features
 
-### 📊 Dashboard
+### Dashboard
 - Real-time maturity and compliance metrics across all 3 baselines
 - Recharts radar + bar charts per baseline
 - Overall CORF posture summary with tier estimate
 - Remediation status overview with overdue alerts
 
-### ✅ Baseline Assessment
+### Baseline Assessment
 - Full domain/sub-domain accordion UI for all 3 baselines (876 controls)
 - **Maturity scoring**: 1-Initial → 2-Ad-hoc → 3-Baseline → 4-Advanced → 5-Innovative
 - **Compliance %** slider per sub-domain
@@ -83,19 +83,19 @@ Track findings with priority, status, ownership, due dates, overdue detection, a
 - Evidence reference + assessor notes per sub-domain
 - **Auto-save** with debounce
 
-### 📋 Statement of Applicability (SoA)
+### Statement of Applicability (SoA)
 - Complete SoA builder covering all 93 sub-domains
 - Toggle applicable / not applicable per domain and sub-domain
 - Justification fields for N/A exclusions (CBK requirement)
 - Bulk save to database
 
-### 🏷️ Inherent Risk Profiling & Tier Calculator
+### Inherent Risk Profiling & Tier Calculator
 - 11 CBK tiering dimensions fully implemented
 - Real-time tier estimate (Tier 1 / 2 / 3)
 - Scoring model based on CORF Framework Section 10
 - Save profile to database for reporting
 
-### 🔧 Remediation Tracker
+### Remediation Tracker
 - Add, edit, and track remediation items per sub-domain
 - Priority levels: Critical / High / Medium / Low
 - Status: Open / In Progress / Completed / Accepted Risk
@@ -103,14 +103,14 @@ Track findings with priority, status, ownership, due dates, overdue detection, a
 - Maturity uplift tracking (current → target)
 - Inline status updates
 
-### 📄 Export & Reporting
+### Export & Reporting
 - **PDF Report**: Cover page, executive summary, domain table, remediation plan
-- **Excel Report**: 5 worksheets — Dashboard, Assessment Results, SoA, Remediation Plan, Risk Profile
+- **Excel Report**: 5 worksheets, Dashboard, Assessment Results, SoA, Remediation Plan, Risk Profile
 - Color-coded, CBK-ready format
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -146,7 +146,7 @@ Opens on [http://localhost:80](http://localhost:80)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 corf-compliance-tool/
@@ -196,7 +196,7 @@ corf-compliance-tool/
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -225,7 +225,7 @@ corf-compliance-tool/
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Full 876 individual control entries with descriptions
 - [ ] Evidence file attachment support (PDF, images)
@@ -240,7 +240,7 @@ corf-compliance-tool/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions from the Kuwait Cybersecurity Community are welcome! Whether it's new features, bug fixes, CORF domain data improvements, or documentation.
 
@@ -248,17 +248,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Areas for Contribution
 
-- 📝 **Control Descriptions** — Add full descriptions for all 876 controls
-- 🌐 **Arabic Support** — RTL layout and Arabic translations
-- 📎 **Evidence Uploads** — File attachment support per sub-domain
-- 👥 **Multi-User** — Role-based access control
-- 📊 **Additional Charts** — Trend lines, gap analysis, heatmaps
-- 🧪 **Testing** — Unit tests, integration tests, E2E tests
-- 📖 **Documentation** — Tutorials, video walkthroughs
+- **Control Descriptions**: Add full descriptions for all 876 controls
+- **Arabic Support**: RTL layout and Arabic translations
+- **Evidence Uploads**: File attachment support per sub-domain
+- **Multi-User**: Role-based access control
+- **Additional Charts**: Trend lines, gap analysis, heatmaps
+- **Testing**: Unit tests, integration tests, E2E tests
+- **Documentation**: Tutorials, video walkthroughs
 
 ---
 
-## 🔒 Security
+## Security
 
 Found a vulnerability? Please report it responsibly.
 
@@ -266,7 +266,7 @@ See [SECURITY.md](SECURITY.md) for our security policy and disclosure process. *
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This is a **community tool** intended to support CORF preparation and self-assessment. It does not replace:
 - Official CBK CORF assessments
@@ -279,19 +279,19 @@ Always refer to the official [CBK CORF documentation](https://www.cbk.gov.kw) fo
 
 ---
 
-## 📬 Contact
+## Contact
 
 - CBK CORWG: [CORWG@cbk.gov.kw](mailto:CORWG@cbk.gov.kw)
 - Community: [GitHub Issues](https://github.com/SiteQ8/corf-compliance-tool/issues) · [Discussions](https://github.com/SiteQ8/corf-compliance-tool/discussions)
 
 ---
 
-## 📄 License
+## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License, see [LICENSE](LICENSE) for details.
 
 ---
 
 <p align="center">
-  <sub>Built for the Kuwait Cybersecurity Community by <a href="https://github.com/SiteQ8">@SiteQ8</a> — Ali AlEnezi 🇰🇼</sub>
+  <sub>Built for the Kuwait Cybersecurity Community by <a href="https://github.com/SiteQ8">@SiteQ8</a>, Ali AlEnezi 🇰🇼</sub>
 </p>
